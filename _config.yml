@@ -1,0 +1,20 @@
+title: "AMC Data Archive"
+#description: "A catalogue of axion miniclusters for post-inflationary axion searches"
+theme: jekyll-theme-cayman
+
+author:
+  name: "Your Name"
+
+footer:
+  text: "This site is maintained by"
+  github: "https://github.com/yourgithubprofile"
+  name: "Your Name"
+# Optional: Add your social links here
+social_links:
+  github: "https://github.com/gpierobon"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+
