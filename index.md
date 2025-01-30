@@ -5,7 +5,7 @@ title: "AMC catalogue"
 
 Welcome to the **AMC catalogue**. 
 
-In progress ...
+***In progress ...***
 
 ## The simulations
 
@@ -41,21 +41,39 @@ Subfind.
 
 ---
 #### **Lite catalogues from Subfind**
+[Download .zip](assets/files/Lite.zip){: .btn}
 
-The lite version of the catalogues only contain masses and radii of all miniclusters, including the subhalos inside the merged halos. Data is ordered by halo mass.
+The lite version of the catalogues only contain masses and radii of all miniclusters, including the subhalos inside the merged halos. Data is ordered by halo mass. Radii are defined such that they contain 90% of the halo mass.
 
 | Description                   | \\(N_p\\) | # Halos  | Download                                      |
 |-----------------|---------------------------|----------------------------------------------------|
 | Direct   (jaxions)    \\(~ ~ z=269,~\\)  \\(L=0.286\\) pc\\(/h\\) |\\(512^3\\) |  | Lite_jaxions_L8.txt             |
 | Direct   (jaxions)    \\(~ ~ z=499,~\\)  \\(L=0.571\\) pc\\(/h\\) |\\(512^3\\) |  | Lite_jaxions_L16.txt             |
-| Direct   (Moore)    \\(~ ~ z=499,~\\)  \\(L=0.103\\) pc\\(/h\\)  | \\(512^3\\) | 39594 | [Lite_Moore_L2.txt](assets/files/Lite_Moore_L2.txt) (1.9 MB)            |
-| Direct   (Moore)    \\(~ ~ z=499,~\\)  \\(L=0.182\\) pc\\(/h\\)  | \\(512^3\\) | 26787 | [Lite_Moore_L3.txt](assets/files/Lite_Moore_L3.txt)  (1.3 MB)           |
+| Direct   (Moore)    \\(~ ~ z=499,~\\)  \\(L=0.103\\) pc\\(/h\\)  | \\(512^3\\) | 39594 | [Lite_Moore_L2.txt](assets/files/Lite_catalogues/Lite_Moore_L2.txt) (1.9 MB)            |
+| Direct   (Moore)    \\(~ ~ z=499,~\\)  \\(L=0.182\\) pc\\(/h\\)  | \\(512^3\\) | 26787 | [Lite_Moore_L3.txt](assets/files/Lite_catalogues/Lite_Moore_L3.txt)  (1.3 MB)           |
 | Indirect   (Moore)  \\(~ ~ z=99,~\\)   \\(L=0.051\\) pc\\(/h\\)  | \\(512^3\\) |  | Lite_q2_L1.txt              |
 
 
 ---
 
-#### **Processed catalogues from Subfind**
+
+#### **Full catalogues from Subfind**
+
+The full version of the catalogues only contain masses and radii of all miniclusters, including the subhalos inside the merged halos. Data is ordered by halo mass. Radii are defined such that they contain 90% of the halo mass.
+
+| Description                   | \\(N_p\\) | # Halos  | Download                                      |
+|-----------------|---------------------------|----------------------------------------------------|
+| Direct   (jaxions)    \\(~ ~ z=269,~\\)  \\(L=0.286\\) pc\\(/h\\) |\\(512^3\\) |  | Full_jaxions_L8.hdf5             |
+| Direct   (jaxions)    \\(~ ~ z=499,~\\)  \\(L=0.571\\) pc\\(/h\\) |\\(512^3\\) |  | Full_jaxions_L16.hdf5             |
+| Direct   (Moore)    \\(~ ~ z=499,~\\)  \\(L=0.103\\) pc\\(/h\\)  | \\(512^3\\) |  | [Full_Moore_L2.hdf5](assets/files/Full_Moore_L2.hdf5)        |
+| Direct   (Moore)    \\(~ ~ z=499,~\\)  \\(L=0.182\\) pc\\(/h\\)  | \\(512^3\\) |  | [Full_Moore_L3.hdf5](assets/files/Full_Moore_L3.hdf5)  |
+| Indirect   (Moore)  \\(~ ~ z=99,~\\)   \\(L=0.051\\) pc\\(/h\\)  | \\(512^3\\) |  | Full_q2_L1.hdf5              |
+
+
+---
+
+
+
 
 <!---
 
