@@ -3,8 +3,6 @@ layout: default
 title: "AMC catalogue"
 ---
 
-Welcome to the **AMC catalogue**. 
-
 ***In progress ...***
 
 ## The simulations
@@ -83,9 +81,11 @@ The full version of the catalogues contain:
 
 #### **Merged AMCs**
 
+These catalogues are for isolated minicluster halos containing at least 1000 particles.
+
 | Description                   | \\(N_p\\) | # Halos  | Download                                      |
 |-----------------|---------------------------|----------------------------------------------------|
-| Direct   (Moore)    \\(~ ~ z=499,~\\)  \\(L=0.182\\) pc\\(/h\\)  | \\(512^3\\) | 3246 | [Full_Moore_L3.hdf5](assets/files/Full_catalogues/Full_Moore_L3.hdf5) (19 MB) |
+| Direct   (Moore)    \\(~ ~ z=499,~\\)  \\(L=0.182\\) pc\\(/h\\)  | \\(512^3\\) | 636 | [Full_Moore_L3.hdf5](assets/files/Full_catalogues/Full_Moore_mer_L3.hdf5) (3.5 MB) |
 
 <!--- To be added
 | Direct   (Moore)    \\(~ ~ z=499,~\\)  \\(L=0.103\\) pc\\(/h\\)  | \\(512^3\\) |  | [Full_Moore_L2.hdf5](assets/files/Full_Moore_L2.hdf5)        |
@@ -95,6 +95,8 @@ The full version of the catalogues contain:
 -->
 
 #### **Isolated AMCs**
+
+These catalogues are for isolated miniclusters containing at least 200 particles.
 
 | Description                   | \\(N_p\\) | # Halos  | Download                                      |
 |-----------------|---------------------------|----------------------------------------------------|
@@ -113,10 +115,13 @@ The full version of the catalogues contain:
 
 ### **Analysis**
 
+Examples on how to load and visualise data can be found in the [AxionMC][MC repo] github repository. 
 
-- [Load isolated MCs and visualise density profiles]({% link docs/isolated.md %})
 
 <!---
+
+
+- [Load isolated MCs and visualise density profiles]({% link docs/isolated.md %})
 
 
 ---
@@ -135,3 +140,4 @@ Blah blah
 
 [Jaxions repo]: https://github.com/veintemillas/jaxions/
 [gadget4 repo]: https://wwwmpa.mpa-garching.mpg.de/gadget4/
+[MC repo]: https://github.com/gpierobon/AxionMC
